@@ -1,0 +1,11 @@
+1) Write the python codes to build the ensemble learning models on at least 4 datasets using pipeline.
+build the models with at least 4 train_test_split combinations and different set of hyper-parameter values.
+Perform the data pre-processing and performance evaluation for the models
+
+2) Write the python codes to perform dimensionality reduction on at least 4 datasets, using at least 6 techniques.
+Build the models with at least 4 train_test_split combinations and different set of hyper-parameter values.
+Analyse the performance for the differnt DR techniques.
+
+3) Write the python code to build the clustering models on at least 4 data sets(using K-MEAN,K-MEDIOD,K-MEANS++ & HIERARCHICAL).
+Build the models with at least 4 train_test_split combinations and different set of hyper-parameter values.
+Perform the daata pre-processing and performance evaluation for the models.
