@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <style>
+        /* Apply CSS styles to format the form */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #444444;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #31aae2;
+            box-shadow: 0 0 10px rgba(196, 12, 12, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input[type="text"], select {
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #5a575757;
+            border-radius: 5px;
+        }
+        select {
+            height: 35px;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #2ebe29;
+            color: #fff;
+            padding: 10px 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #0058b6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sample Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                
+            </select>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">India</option>
+                <option value="canada">China</option>
+                <option value="uk">Germany</option>
+                <option value="other">France</option>
+            </select>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
